@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.home{
+    background-image: url(blog.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo img{
+    height: 50px;
+    width: 70px;
+}
+
+.header{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 13%;
+    justify-content: space-between;
+}
+
+.logo h5{
+    text-transform: uppercase;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+ul li{
+    text-transform: uppercase;
+}
+
+ul li:hover{
+    background-color: white;
+    color: black;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.main button{
+    background-color: transparent;
+    padding: 7px 20px;
+    color: white;
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.main h1{
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.main button:hover{
+    background-color: orange;
+    color: black;
+    transform: scale(1.2);
+}
